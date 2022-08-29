@@ -6,15 +6,19 @@
           revision="twelve"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="limee"
+          fetch="https://github.com/LiMeeROMDev"
+          revision="twelve" />
+
   <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="limee" />
 
   <!-- Packages repos -->
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="limee" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pixel" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="limee" />
 
 </manifest>
